@@ -579,7 +579,7 @@
 %% Exercise with counter
 \newcounter{exer}[chapter]
 \setcounter{exer}{0}
-\renewcommand{\theexer}{\thechapter.\arabic{exer}}
+\renewcommand{\theexer}{\arabic{exer}}
 \newenvironment{exercise}[1][]{
   \refstepcounter{exer}
   \par\noindent\makebox[-3pt][r]{
