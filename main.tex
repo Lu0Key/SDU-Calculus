@@ -13,6 +13,17 @@
 \version{1.0 beta}
 \cover{cover.png}
 
+
+%小标题加一个星号%
+\newcommand\Section[1]{
+  \refstepcounter{section}
+  \section*{\thesection\quad #1}
+  \addcontentsline{toc}{section}{\makebox[0pt][r]{*}\thesection\quad #1}
+}
+%%
+
+
+
 \begin{document}
 
     \setlength{\abovedisplayskip}{5pt}
