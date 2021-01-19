@@ -57,6 +57,82 @@
 
 \section{偏导数与全微分}
 
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 求下列函数在给定点处的偏导数：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $z=x^2+3xy+y^2$，求 $z_x'(1, 2),\;z_y'(1, 2)$;
+        \item $z=e^{x^2+y^2}$，求 $z_x'(0, 1),\;z_y'(0, 1)$;
+        \item $z=\dfrac{xy(x^2-y^2)}{x^2+y^2}$，求 $z_x'(1, 1),\;z_y'(1, 1)$;
+        \item $z=\ln|xy|$，求 $z_x'(-1, -1),\;z_y'(1, 1)$.
+    \end{enumerate}
+
+    \item 求下列函数的一阶偏导数：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $z=\sin(xy)+\cos^2(xy)$;
+        \item $z=\ln(z+\ln y)$;
+        \item $z=x^2\arctan\dfrac{y}{x}-y^2\arctan\dfrac{x}{y}$;
+        \item $z=x\cdot\ln\dfrac{y}{x}$;
+        \item $z=\arcsin\dfrac{x}{y}$;
+        \item $z=e^{\frac{x}{y}}+e^{\frac{y}{x}}$;
+        \item $z=(1+xy)^{y}$;
+        \item $z=\ln\dfrac{\sqrt{x^2+y^2}-x}{\sqrt{x^2+y^2}+x}$
+    \end{enumerate}
+
+    \item 求下列函数的二阶偏导数：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $z=x\ln(xy)$;
+        \item $z=x^4+y^4-4x^2y^2$;
+        \item $z=\arctan\dfrac{y}{x}$;
+        \item $z=y^x$.
+    \end{enumerate}
+
+    \item 求下列函数的全微分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $z=e^{x(x^2+y^2)}$;
+        \item $z=\arctan\dfrac{x+y}{x-y}$;
+        \item $z=\sqrt{\dfrac{y}{x}}$;
+        \item $z=\sqrt{\ln(xy)}$.
+    \end{enumerate}
+
+    \item 证明下列各题:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 设 $T=2\pi\sqrt{\dfrac{l}{g}}$, 证明 $l\dfrac{\partial T}{\partial l}+g\dfrac{\partial T}{\partial g}=0$;
+        \item 设 $z=x^y\cdot y^x$, 证明 $x\dfrac{\partial z}{\partial x}+y\dfrac{\partial z}{\partial y}=z(x+y+\ln z)$;
+        \item 设 $z=f(ax+by)$, 证明 $b\dfrac{\partial z}{\partial x}=a\dfrac{\partial z}{\partial y}$;
+        \item 设 $u=(y-z)(z-x)(x-y)$, 证明 $\dfrac{\partial u}{\partial x}+\dfrac{\partial u}{\partial y}+\dfrac{\partial u}{\partial z}=0$;
+        \item 设 $z=e^{-(\frac{1}{x}+\frac{1}{y})}$, 证明 $x^2\dfrac{\partial z}{\partial x}+y^2\dfrac{\partial z}{\partial y}=2z$.
+    \end{enumerate}
+
+    \item 拉普拉斯方程是指偏微分方程 $\dfrac{\partial^2 u}{\partial x^2}+\dfrac{\partial^2 u}{\partial y^2}=0$. 证明下述函数满足拉普拉斯方程:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $u=\ln(x^2+y^2)$;
+        \item $u=e^{x}\sin y+e^{y}\cos x$.
+    \end{enumerate}
+
+    \item[**7.] 证明
+    \[
+        f(x, y)=\begin{cases}
+            (x^2+y^2)\sin\dfrac{1}{x^2+y^2},&x^2+y^2\not=0,\\
+            0,&x^2+y^2=0
+        \end{cases}
+    \]
+    在 $(0, 0)$ 处可微.但偏导数不连续.
+    
+    \item[*8.] 求下列数的近似值:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $(1.04)^{2.02}$;
+        \item $\ln(\sqrt[3]{1.03}+\sqrt[4]{0.98}-1)$.
+    \end{enumerate} 
+
+    \item[9.] 设有一圆柱形金属工件,高为 $h=10 cm$, 底圆半径 $r=2 cm$, 求高增加 $0.02 cm$, 半径增加 $0.01 cm$ 时, 该工件的体积大致能增加多少?
+    
+    \item[10.] 求下列函数的全微分:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $u=xyz$;
+        \item $u=y^{zx}$.
+    \end{enumerate}
+\end{enumerate}
+
 \section{多元复合函数和隐函数的微分法}
 
 \section{微分法在几何上的应用}
