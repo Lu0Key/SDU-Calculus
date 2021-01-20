@@ -2,14 +2,71 @@
 % !TeX root = main.tex
 \chapter{重积分}\label{cha:9}
 
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+% \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+% \end{enumerate}
+
+
 \section{二重积分的概念和性质}
+
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 设 $\displaystyle I_1=\iint\limits_{D_1}(x^2+y^2)^3\text{d}\sigma$, 其中 $D_1$ 是矩形闭区域: $-1\leqslant x\leqslant 1,\;-2\leqslant y\leqslant 2$, 又 $I_2=\iint\limits_{D_2}(x^2+y^2)^3\text{d}\sigma$, 其中 $D_2$ 是庆闭区域: $0\leqslant x\leqslant 1,\;0\leqslant y\leqslant 2$, 试用二重积分的几何意义说明 $I_1,\;I_2$ 间的关系.
+    
+    \item 利用二重积分定义证明:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\iint\limits_{D}kf(x, y)\text{d}\sigma=k\iint\limits_{D}f(x, y)\text{d}\sigma$, 其中 $k$ 为常数;
+        \item $\displaystyle\iint\limits_{D}[f(x, y)\pm g(x, y)]\text{d}\sigma=\iint\limits_{D}f(x, y)\text{d}\sigma \pm\iint\limits_{D}g(x, y)\text{d}\sigma$;
+        \item $\displaystyle\iint\limits_{D}f(x, y)\text{d}\sigma=\iint\limits_{D_1}f(x, y)\text{d}\sigma+\iint\limits_{D_2}f(x, y)\text{d}\sigma$, 其中 $D=D_1\bigcup D_2,\;D_1,\;D_2$ 是两个无公共内点的闭区域;
+        \item $\displaystyle\iint\limits_{D}f(x, y)\text{d}\sigma=\iint\limits_{D}\text{d}\sigma=\sigma$, 其中 $\sigma$ 为区域 $D$ 的面积.
+    \end{enumerate}
+
+    \item[*3.] 设函数 $f(x, y)$、$g(x, y)$ 在有界区域 $D$ 上连续, 且 $g(x, y)\geqslant 0$, 试证必存在点 $(\xi, \eta)\in D$, 使
+    \[
+        \iint\limits_{D}f(x, y)g(x, y)\text{d}\sigma=f(\xi, \eta)\iint\limits_{D}g(x, y)\text{d}\sigma
+    \]
+
+    \item[4.] 利用二重积分的性质, 比较下列积分的大小:  
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\iint\limits_{D}\sqrt{1+x^2+y^2}\text{d}\sigma$ 与 $\displaystyle\iint\limits_{D}\sqrt{1+x^4+y^4}\text{d}\sigma$, $D$ 为 $x^2+y^2\leqslant 1$;
+        \item $\displaystyle\iint\limits_{D}\ln(x+y)\text{d}\sigma$ 与 $\displaystyle\iint[\ln(x+y)]^2\text{d}\sigma$, $D$ 为矩形区域: $3\leqslant x\leqslant 5,\;0\leqslant y\leqslant 1$;
+        \item $\displaystyle\iint\limits_{D}(x+y)^2\text{d}\sigma$ 与 $\displaystyle\iint(x+y)^3\text{d}\sigma$, 其中积分区域 $D$ 由圆周 $(x-2)^2+(y-1)^2=2$ 围成.
+    \end{enumerate}
+
+    \item[5.] 利用二重积分的性质估计下列积分的值:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle I=\iint\limits_{D}(x+y+1)\text{d}\sigma$, $D$ 为 $\{(x, y)\mid 0\leqslant x\leqslant 1,0\leqslant y\leqslant 2\}$;
+        \item $\displaystyle I=\iint\limits_{D}(x+xy-x^2-y^2)\text{d}\sigma$, $D$ 为区域 $\{(x, y) \mid 0\leqslant 1, 0\leqslant y \leqslant 2\}$;
+        \item $\displaystyle I=\iint\limits_{D}(x^2+4y^2+9)\text{d}\sigma$, $D$ 为圆域 $x^2+y^2\leqslant 4$.
+    \end{enumerate} 
+\end{enumerate}
 
 \section{二重积分的计算}
 
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+
 \section{三重积分的概念}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
 
 \section{三重积分的计算}
 
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+
 \section{重积分的应用}
 
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+
 \section{用MATLAB计算重积分}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
