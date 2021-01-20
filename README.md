@@ -1,7 +1,7 @@
 # SDU-Calculus
 山大微积分课后习题解析
 
-![](http://latex.codecogs.com/gif.latex?\\LaTeX)模板：ElegantBook v3.10  
+![](https://latex.codecogs.com/gif.latex?%5C%5CLaTeX)模板：ElegantBook v3.10  
 模板链接：https://github.com/ElegantLaTeX/ElegantBook  
 环境：Tex Live 2019
 
