@@ -136,8 +136,61 @@
 
 \section{三重积分的计算}
 
-% \begin{enumerate}\setlength{\itemsep}{7pt}
-% \end{enumerate}
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 将三重积分 $\displaystyle\iiint\limits_{D}f(x, y, z)\text{d}V$ 化为直角坐标系中的累次积分，其中积分区域 $\Omega$ 分别是：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        $\displaystyle\Omega=\{(x, y, z) \mid 0\leqslant x \leqslant 1,\;1\leqslant y\leqslant 2,\;2\leqslant z\leqslant 3\}$;
+        $\displaystyle\Omega=\{(x, y, z) \mid \sqrt{x^2+y^2}\leqslant z\leqslant 1\}$;
+        $\displaystyle\Omega=\{(x, y, z) \mid 0\leqslant z\leqslant x^2+y^2,\;x+y\leqslant 1,\;x\geqslant 0,\;y\geqslant 0\}$.
+    \end{enumerate}
+
+    \item 计算下列三重积分
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\iiint\limits_{\Omega}(x+y+z)\text{d}V$, 其中 $\Omega$ 由平面 $x+y+z=1$ 与三个坐标面围成；
+        \item $\displaystyle\iiint\limits_{\Omega}\dfrac{1}{(1+x+y+z)^3}\text{d}V$, 其中 $\Omega$ 由平面 $x+y+z=1$ 及三个坐标平面围成；
+        \item $\displaystyle\iiint\limits_{\Omega}xy^2\text{d}V$, $\Omega$ 由平面 $z=0,\;x+y-z=0,\;x-y-z=0$ 及 $x=1$ 围成;
+        \item $\displaystyle\iiint\limits_{\Omega}e^{|x|}\text{d}V$, $\Omega$ 为 $x+2+y^2+z^2\leqslant 1$;
+        \item $\displaystyle\iiint\limits_{\Omega}xy^2z^3\text{d}V$, $\Omega$ 是由马鞍面 $z=xy$ 与平面 $y=x,\;x=1,\;z=0$ 所包围的空间区域.    
+    \end{enumerate}
+
+    \item 设积分区域 $\Omega$ 由 $z\leqslant \sqrt{4-x^2-y^2},\;z\geqslant\sqrt{x^2+y^2},\;x\geqslant 0,\;y\geqslant y\geqslant 0$ 确定，试将三重积分 $\displaystyle\iiint\limits_{\Omega}f(x^2+y^2+z^2)\text{d}V$ 分别表示为直角坐标、柱面坐标和球面坐标系中的累次积分.
+    
+    \item 利用柱面坐标变换或球面坐标变换，计算下列三重积分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\iiint\limits_{\Omega}(x^2+y^2)\text{d}V,\;\Omega=\{(x, y, z) \mid \sqrt{x^2+y^2}\leqslant z\leqslant 1\}$;
+        \item $\displaystyle\iiint\limits_{\Omega}xyz\text{d}V,\;\Omega=\{(x, y, z)\ \mid x^2+y^2+z^2\leqslant 1,\;z\geqslant 0,\;y\geqslant 0,\;z\geqslant 0\}$;
+        \item $\displaystyle\iiint\limits_{\Omega}2\sqrt{x^2+y^2}\text{d}V$, $\Omega$ 是由 $z=\sqrt{a^2-x^2-y^2},\;x\geqslant 0,\;y\geqslant 0$ 和 $z\geqslant 0$ 所围成的区域;
+        \item $\displaystyle\iiint\limits_{\Omega}xe^{x^2+y^2+z^2}/a^2\text{d}V$, $\Omega=\{(x, y, z) \mid x^2+y^2+z^2\leqslant a^2,\;x\geqslant 0,\;y\geqslant 0,\;z\geqslant0\}$;
+        \item $\displaystyle\iiint\limits_{\Omega}\dfrac{\sin\sqrt{x^2+y^2+z^2}}{x^2+y^2+z^2}\text{d}V,\;\Omega=\{(x, y, z) \mid x^2+y^2+z^2\leqslant 1,\;x\geqslant 0,\;y\geqslant 0,\;z\geqslant 0\}$;
+        \item $\displaystyle\iiint\limits_{\Omega}(x^2+y^2)\text{d}V$, $\Omega$ 是由曲面 $4z^2=25(x^2+y^2)$ 及平面 $z=5$ 所围成的区域;
+        \item $\displaystyle\iiint\limits_{\Omega}(x^2+y^2)\text{d}V$, $\Omega$ 是由不等式 $0<a\leqslant \sqrt{x^2+y^2+z^2}\leqslant A,\;z\geqslant0$ 所确定的区域;
+        \item[*8.] 计算 $\displaystyle\iiint\limits_{\Omega}(x^2+y^2)\text{d}V$, 其中 $\Omega$ 为平面曲线 $\begin{cases}
+            y^2=2z\\
+            x=0
+        \end{cases}$ 绕 $z$ 轴旋转一周形成的曲面与平面 $z=8$ 所围成的区域.
+    \end{enumerate}
+
+    \item[*5.] 做适当变量代换，计算下列三重积分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\iiint\limits_{\Omega}x^2\text{d}V,\;\Omega=\{(x, y, z) \mid \dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}+\dfrac{z^2}{c^2}\leqslant 1\}$;
+        \item $\displaystyle\iiint\limits_{\Omega}x^2\text{d}V$, $\Omega$ 是由曲面 $z=ay^2,\;z=by^2\;(y>0,\;0<a<b),\;z=ax,\;z=\beta x(0<\alpha<\beta)$ 以及 $z=0,\;z=h(h>0)$ 所围成.    
+    \end{enumerate}  
+
+    \item[6.] 设 $\displaystyle F(t)=\int_{0}^{t}\text{d}x\int_0^{x}\text{d}y\int_0^{y}f(z)\text{d}z$, 其中 $f(z)$ 连续，试把 $F(t)$ 化为对 $z$ 的定积分，并求 $F^{m}(t)$.
+    
+    \item[*7.] 设函数 $f(z)$ 在 $[-1, 1]$ 上连续，证明
+    \[
+        \iiint\limits_{\Omega}f(z)\text{d}V=\pi\int_{-1}^{1}f(z)(1-z^2)\text{d}z,
+    \]
+    其中 $\Omega$ 为球体 $x^2+y^2+z^2\leqslant 1$.
+
+    \item[*8.] 设 $f(x)$ 连续，$f(0)=a$，函数 $F(t)=\displaystyle\iiint\limits_{\Omega}[z+f(x^2+y^2+z^2)]\text{d}V$, 其中 $\Omega : 0\leqslant z\leqslant \sqrt{t^2-x^2-y^2}$ 及 $z\geqslant \sqrt{x^2+y^2}$, 求 $\displaystyle\lim_{t\to0}\dfrac{F(t)}{t^3}$.
+    
+    \item[*9.] 假设 $f(x)$ 在区间 $[0, 1]$ 上连续，并且 $\displaystyle\int_0^2f(x)\text{d}x=A$, 证明：
+    \[
+        \int_0^1\text{d}x\int_x^1\text{d}y\int_x^yf(x)f(y)f(z)\text{d}z=\dfrac{A^3}{3!}.
+    \]
+\end{enumerate}
 
 
 \section{重积分的应用}
