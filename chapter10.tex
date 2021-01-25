@@ -31,6 +31,36 @@
 
 
 \section{对坐标的曲线积分}
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 设 $L$ 为 $x$ 轴上从点 $A(a, 0)$ 到点 $B(b, 0)$ 的一段直线，证明
+    \[
+        \int_{L}P(x, y)\text{d}x = \int_{a}^{b}P(x, 0)\text{d}x.
+    \]
+    依此，您能说明第二类曲线积分与定积分的关系吗？
+
+    \item 计算下列第二类曲线积分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\int_{L}(x^2-y^2)\text{d}x$，$L$ 是一个抛物线 $y=x^2$ 上从点 $(0, 0)$ 到 $(2, 4)$ 的一段弧;
+        \item $\displaystyle\int_{L}(x^2-2xy)\text{d}x+(y^2-2xy)\text{d}y$，$L$ 是抛物线 $y=x^2$ 上从点 $A(-1, 1)$ 到 $B(1, 1)$ 的一段弧;
+        \item $\displaystyle\oint_{L}xy\text{d}x$，$L$ 为圆周 $x^2+y^2=2ax(a>0)$ 与 $x$ 轴围成的第一象限的区域的整个边界（按逆时针方向绕行）;
+        \item $\displaystyle\oint_{L}(x^2+y^2)\text{d}y$，$L$ 是由直线 $x=1,\;y=1,\;x=3,\;y=5$ 构成的正向矩形闭回路;
+        \item $\displaystyle\int_{L}(2a-y)\text{d}x-(a-y)\text{d}y$，$L$ 为摆线 $x=a(t-\sin t),\;y=a(1-\cos t)$ 的一供（对应于由 $t_1=0$ 到 $t_2=2\pi$ 的一段弧）;
+        \item $\displaystyle\int_{\Gamma}y\text{d}x+z\text{d}y+x\text{d}z$，$\Gamma$ 为曲线 $x=a\cos t,\;y=a\sin t,\;z=bt$ 上从 $t=0$ 到 $t=2\pi$ 的一段弧;
+        \item $\displaystyle\int_{\Gamma}x\text{d}x+y\text{d}y+(x+y-1)\text{d}z$，$\Gamma$ 是从点 $(1, 1, 1)$ 到点 $(2, 3, 4)$ 的一段直线;
+        \item $\displaystyle\oint_{L}\dfrac{(x+y)\text{d}x-(x-y)\text{d}y}{x^2+y^2}$，$L$ 为依逆时针方向沿圆 $x^2+y^2=a^2$ 绕行一周的路径.
+    \end{enumerate}
+
+    \item 将对坐标的曲线积分 $\displaystyle\int_{L}P(x, y)\text{d}x+Q(x, y)\text{d}y$ 化为对弧长的曲线积分，其中 $L$ 为沿抛物线 $y=x^2$ 从点 $(0, 0)$ 到点 $(1, 1)$ 的一段弧.
+    
+    \item 设 $\Gamma$ 为曲线 $x=t,\;y=t^2,\;z=t^3$ 上相应于 $t$ 从 $0$ 变到 $1$ 的曲线弧，把对坐标的曲线积分 $\displaystyle\int_{L}P\text{d}x+Q\text{d}y+R\text{d}z$ 化成对弧长的曲线积分.
+    
+    \item 一力场由沿 $x$ 轴正方向的常力 $\boldsymbol{F}$ 所构成，试求当一质量为 $m$ 的质点沿圆周 $x^2+y^2=R^2$ 按逆时针方向移过位于第一象限的那一段弧时场力所做的功.
+    
+    \item 设有一质量为 $m$ 的质点受重力作用在铅直平面上沿某一光滑曲线 $L$ 从点 $A$ 移动到点 $B$，求重力所做的功（图10.2.5）.(估计这题不会去做，Tikz还不怎么会用).
+    
+    \item[*7.] 在变力 $\boldsymbol{F}=yz\boldsymbol{i}+zx\boldsymbol{j}+zy\boldsymbol{k}$ 作用下，质点由原点沿直线运动到椭球面 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}+\dfrac{z^2}{c^2}=1$ 上第一卦限的点 $M(\xi, \eta, \zeta)$. 
+    问当 $\xi,\;\eta,\;\zeta$ 取何值时，力 $\boldsymbol{F}$ 所作的功 $W$ 最大？并求出 $W$ 的最大值.
+\end{enumerate}
 
 \section{格林公式及其应用}
 
