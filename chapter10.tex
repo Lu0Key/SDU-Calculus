@@ -243,7 +243,80 @@
 
 \section{场论简介}
 
-% \begin{enumerate}\setlength{\itemsep}{7pt}
-% \end{enumerate}
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 求函数 $z=xe^{2y}$ 在点 $P(1, 0)$ 沿从点 $P(1, 0)$ 到点 $Q(2, -1)$ 方向的方向导数.
+    \item 数量场 $u=x^2+y^2+z^2$，求在点 $M_0(1, 1, -1)$ 处沿 $u(x, y, z)$ 梯度方向的方向导数.
+    \item 求数量场 $u=x^2+2y^2+3z^2+xy+3x-2y-6z$ 在点 $O(0, 0, 0)$ 与 $P(1, 1, 1)$ 处的最大的方向导数及该方向的方向余弦，并问在何处的 $\boldsymbol{\nabla} u=0$，在该处的方向导数取何值？
+    \item 设 $\boldsymbol{r}=x\boldsymbol{i}+y\boldsymbol{j}+z\boldsymbol{k},\;r=\sqrt{x^2+y^2+z^2}$，$n$ 为正整数，$\boldsymbol{\alpha}$ 为常向量，
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 求 $\boldsymbol{\nabla} r^2,\;\boldsymbol{\nabla}r^n,\;\boldsymbol{\nabla}f(r)$;
+        \item 证明 $\boldsymbol{\nabla}(\boldsymbol{\alpha}\cdot \boldsymbol{r})=\boldsymbol{\alpha}$;
+        \item 求 $\text{div}(r\boldsymbol{\alpha}),\;\text{div}(r^n\boldsymbol{\alpha})$.
+    \end{enumerate}
+
+    \item 设 $\boldsymbol{A}=x^3\boldsymbol{i}+y^3\boldsymbol{j}+z^3\boldsymbol{k}$，$\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，求向量 $\boldsymbol{A}$ 穿过曲面 $\Sigma$ 流向指定侧的通量.
+    
+    \item 求下列各向量场的散度：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\boldsymbol{A}=(x^2+yz)\boldsymbol{i}+(y^2+zx)\boldsymbol{j}+(z^2+xy)\boldsymbol{k}$;
+        \item $\boldsymbol{A}=(x+y+z)\boldsymbol{i}+(x^2+y^2+z^2)\boldsymbol{j}+xyz\boldsymbol{k}$.
+    \end{enumerate}
+    
+    % 这边还需要修正grad 和 rot
+    \item 设 $\boldsymbol{A},\;\boldsymbol{B}$ 为向量函数，$u$ 为数值函数，求证：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\text{div}(u\boldsymbol{A})=u\text{div}\boldsymbol{A}+\boldsymbol{A}\cdot\boldsymbol{grad}u$;
+        \item $\text{div}(\boldsymbol{A}\times\boldsymbol{B})=\boldsymbol{B}\cdot\boldsymbol{rot}\boldsymbol{A}-\boldsymbol{A}\cdot\boldsymbol{rot}\boldsymbol{B}$;
+        \item $\boldsymbol{rot}(u\boldsymbol{A}) = u\boldsymbol{rot}\boldsymbol{A}+\boldsymbol{grad} u\times \boldsymbol{A}$.
+    \end{enumerate}
+    
+    \item 求下列向量 $\boldsymbol{A}$ 沿闭曲线 $\Gamma$ 的环流量：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\boldsymbol{A}=3y\boldsymbol{i}-xz\boldsymbol{j}+yz\boldsymbol{k}$，其中 $\Gamma$ 为圆周 $x^2+y^2=2z,\;z=2$，取逆时针方向;
+        \item $\boldsymbol{A}=-y\boldsymbol{i}+x\boldsymbol{j}+c\boldsymbol{k}$（$c$ 为常数），$\Gamma$ 为圆周 $x^2+y^2=1,\;z=0$，取逆时针方向.
+    \end{enumerate}
+
+    \item 求下列向量场 $\boldsymbol{A}$ 的旋度：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\boldsymbol{A}=(x+y+z)\boldsymbol{i}+(x^2+y^2+z^2)\boldsymbol{j}+xyz\boldsymbol{k}$;
+        \item $\boldsymbol{A}=e^{x}\sin y\boldsymbol{i}+e^{y}\sin z\boldsymbol{j}+e^{z}\sin x\boldsymbol{k}$.
+    \end{enumerate}
+
+    \item 试证向量场
+    \[
+        \boldsymbol{A}=2xyz^2\boldsymbol{i}+(x^2yz^2z\cos yz)\boldsymbol{j}+(2x^2yz+y\cos yz)\boldsymbol{k}
+    \]
+    为有势场，并求其原函数 $u(x, y, z)$ 及势函数 $V(x, y, z)$.
+
+    \item 设数值函数 $u(x, y, z),\;P(x, y, z),\;Q(x, y, z)\;R(x, y, z)$ 在空间区域 $\Omega$ 内均有具有二阶连续偏导数. $\boldsymbol{A}=P\boldsymbol{i}+Q\boldsymbol{j}+R\boldsymbol{k}$，证明：在 $\Omega$ 内恒有
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\boldsymbol{rot}(\boldsymbol{grad} u)=\boldsymbol{0}$;
+        \item $\text{div}(\boldsymbol{rot} \boldsymbol{A})=0$.
+    \end{enumerate}
+
+    \item 下列向量场是否为有势场或调和场，若是有势场则求出其势函数：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\boldsymbol{A}=(x^2-y^2+x)\boldsymbol{i}-(2xy+y)\boldsymbol{j}$;
+        \item $\boldsymbol{A}=yz(2x+y+z)\boldsymbol{i}+zx(x+2y+z)\boldsymbol{j}+xy(x+y+2z)\boldsymbol{k}$.
+    \end{enumerate}
+
+    \item 证明向量场 $\boldsymbol{A}=(2x+y)\boldsymbol{i}+(4y+x+2z)\boldsymbol{j}+(2y-6z)\boldsymbol{k}$ 为调和场.
+    
+    \item[*14.] 设有一小山，取它的底面所在的平面为 $xOy$ 坐标面，其底部所占的区域为 $D=\{(x, y)|x^2+y^2-xy\leqslant75\}$，小山的高度函数为 $h=75-x^2-y^2+xy$.
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 设 $M(x_0, y_0)$ 为区域 $D$ 上一点，问 $h(x, y)$ 在该点沿平面上什么方向的方向导数最大？若记此方向导数的最大值为 $g(x_0, y_0)$，试写出 $g(x_0, y_0)$ 的表达式.
+        \item 现欲利用此小山开展攀岩活动，为此需要在山脚寻找一上山坡度最大的点作为攀登的起点，即要在 $D$ 的边界线 $x^2+y^2-xy=75$  上找出使（1）中 $g(x, y)$ 达到最大的点. 试去顶攀登起点的位置.
+    \end{enumerate}
+
+
+
+    
+
+
+
+
+
+    
+\end{enumerate}
 
 \section{用MATLAB计算曲线积分和曲面积分}
