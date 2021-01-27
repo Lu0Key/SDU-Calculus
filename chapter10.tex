@@ -170,7 +170,7 @@
     \item 计算下列曲面积分
     \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
         \item $\displaystyle\iint\limits_{\Sigma}z\text{d}x\text{d}y+x\text{d}y\text{d}z+y\text{d}z\text{d}x$，$\Sigma$ 是柱面 $x^2+y^2=1$ 被平面 $z=0$ 及 $z=3$ 所截得的在第一卦限内的部分的前侧;
-        \item $\displaystyle\oiint\limits_{\Sigma}y^2z\text{d}x\text{d}y$，封闭曲面 $\Sigma$ 为旋转抛物面 $z=x^2+Y^2$ 与平面 $z=1$ 所围空间体表面的外侧；
+        \item $\displaystyle\oiint\limits_{\Sigma}y^2z\text{d}x\text{d}y$，封闭曲面 $\Sigma$ 为旋转抛物面 $z=x^2+y^2$ 与平面 $z=1$ 所围空间体表面的外侧；
         \item $\displaystyle\oiint\limits_{\Sigma}x\text{d}y\text{d}z$，其中 $\Sigma$ 与（2）题相同.
     \end{enumerate}
 
@@ -185,14 +185,61 @@
         \item 平面 $3x+2y+2\sqrt{3}z=6$ 在第一卦限部分的上侧；
         \item $y^2=2-x(y\geqslant0)$ 的前侧；
         \item $z=xy$ 位于第一卦限部分的上侧.
-    \end{enumerate}    
-    
+    \end{enumerate}
 \end{enumerate}
 
 \section{高斯公式和斯托克斯公式}
 
-% \begin{enumerate}\setlength{\itemsep}{7pt}
-% \end{enumerate}
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 利用高斯公式计算下列曲面积分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\oiint\limits_{\Sigma}(y^2+xz)\text{d}x\text{d}y+x^2\text{d}z\text{d}x+y(x-z)\text{d}y\text{d}z$，其中 $\Sigma$ 为平面 $x=0,\;y=0,\;z=0,\;x=a,\;y=a,\;z=a(a>0)$ 所围成的立体表面的外侧;
+        \item $\displaystyle\oiint\limits_{\Sigma}xz^2\text{d}y\text{d}z+(x^2y-z^3)\text{d}z\text{d}x+(2xy+y^2z)\text{d}x\text{d}y$，$\Sigma$ 为上半球体 $0\leqslant z\leqslant \sqrt{a^2-x^2-y^2},\;x^2+y^2\leqslant a^2$ 的表面外侧；
+        \item $\displaystyle\iint\limits_{\Sigma}yz\text{d}y\text{d}z+xz\text{d}z\text{d}x+(x+y+z)\text{d}x\text{d}y$，$\Sigma$ 为半球面 $x^2+y^2+(z-a)^2=a^2(0\leqslant z\leqslant a)$ 的外侧；
+        \item $\displaystyle\iint\limits_{\Sigma}(1-x)\text{d}y\text{d}z+(y-z)\text{d}z\text{d}x+(z-x)\text{d}x\text{d}y$，$\Sigma$ 为圆锥面 $z=\dfrac{h}{R}\sqrt{x^2+y^2}(0\leqslant z\leqslant h)$ 的下侧；
+        \item $\displaystyle\iint\limits_{\Sigma}x(8y+1)\text{d}y\text{d}z+2(1-y^2)\text{d}z\text{d}x-4yz\text{d}x\text{d}y$，$\Sigma$ 为曲线 $L:\begin{cases}
+            `z=\sqrt{y-1},\\
+            x=0
+        \end{cases}(1\leqslant y\leqslant 3)$ 绕 $y$ 轴旋转一周所围成的曲面，其法向量与 $y$ 轴正向夹角恒大于 $\dfrac{\pi}{2}$.
+    \end{enumerate}
+
+    \item 流速场中点 $(x, y, z)$ 处的流速为
+    \[
+        v(x, y, z)=(2x+3z)\boldsymbol{i}-(xz+y)\boldsymbol{j}+(y^2+2z)\boldsymbol{k},
+    \]
+    $\Sigma$ 是球面 $(x-3)^2+(y-1)^2+(z-2)^2=1$ 的外侧，求流体在单位时间内穿过曲面 $\Sigma$ 流向指定侧的流量 $\Phi$.
+
+    \item 用两种方法计算曲面积分
+    \[
+        I=\iint\limits_{\Sigma}x\text{d}y\text{d}z+y\text{d}z\text{d}x+z\text{d}x\text{d}y
+    \]
+    其中 $\Sigma$ 为曲面 $z=x^2+y^2$ 在第一卦限 $0\leqslant z\leqslant 1$ 部分的外侧.
+
+    \item 利用斯托克斯公式计算下列曲线积分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\oint_{\Gamma}(y+1)\text{d}x+(z+2)\text{d}y+(x+3)\text{d}z$，其中 $\Gamma$ 为圆周 $\begin{cases}
+            x^2+y^2+z^2=a^2,\\
+            x+y+z=0,
+        \end{cases}$ 从 $x$ 轴正向看去 $\Gamma$ 是逆时针方向；
+        \item 同题（1），但要求利用斯托克斯公式将（1）中的第二类曲线积分化为第一类曲面积分计算；
+        \item $\displaystyle\oint_{\Gamma}(z-y)\text{d}x+(x-z)\text{d}y+(x-y)\text{d}z$，其中 $\Gamma$ 是曲线$\begin{cases}
+            x^2+y^2=1,\\
+            x-y+z=2,
+        \end{cases}$ 从 $z$ 轴正向往 $z$ 轴负向看，$\Gamma$ 的方向是顺时针的.
+        \item $\displaystyle\oint_{\Gamma}3y\text{d}x-xz\text{d}y+yz^2\text{d}z$，其中 $\Gamma$ 为圆周 $\begin{cases}
+            x^2+y^2=2z,\\
+            z=2,
+        \end{cases}$ 从 $z$ 轴正向看去取逆时针方向.
+    \end{enumerate}
+
+    \item[*5.] 设对于半空间 $x>0$ 内任意的光滑有向封闭曲面 $\Sigma$，都有
+    \[
+        \oiint\limits_{\Sigma}xf(x)\text{d}y\text{d}z-xyf(x)\text{d}z\text{d}x-e^{2x}z\text{d}x\text{d}y=0,
+    \]
+    其中函数 $f(x)$ 在 $(0, +\infty)$ 内具有连续的一阶导数，且 $\displaystyle\lim_{x\to0+0}f(x)=1$，求 $f(x)$.
+    
+    \item[*6.] 计算 $I=\displaystyle\oint_{L}(y^2-z^2)\text{d}x+(2z^2-x^2)\text{d}y+(3x^2-y^2)\text{d}z$，其中 $L$ 是平面 $x+y+z=2$ 与柱面 $|x|+|y|=1$ 的交线，从 $z$ 轴正向看起，$L$ 为逆时针方向.
+\end{enumerate}
 
 \section{场论简介}
 
