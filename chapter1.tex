@@ -108,6 +108,94 @@
 
 \section{极限}
 
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 观察数列 $\{x_n\}$ 的变化趋势，讨论它们的极限是否存在：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $x_n=\dfrac{1}{2^n}$;
+        \item $x_n=(-1)^n\dfrac{1}{n^2}$;
+        \item $x_n=(-1)^nn$;
+        \item $x_n=\dfrac{n-1}{n+1}$;
+        \item $x_n=n-\dfrac{1}{n}$.
+    \end{enumerate}
+
+    \item 讨论下列各函数在点 $x=0$ 处的极限是否存在：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $f(x)=\begin{cases}
+            2,&x=0,\\
+            1&x\not=0;
+        \end{cases}$
+        \item $f(x)=\begin{cases}
+            x+1,&x<0,\\
+            0,&x=0,\\
+            1-x,x>0;
+        \end{cases}$
+        \item $f(x)=\begin{cases}
+            x+1,&x\leqslant0,\\
+            x,x>0;
+        \end{cases}$
+        \item $f(x)=\begin{cases}
+            \dfrac{1}{x},&x\not=0,\\
+            0,&x=0;
+        \end{cases}$
+        \item $f(x)=\begin{cases}
+            \dfrac{1}{\sin x},&0<|x|\leqslant\dfrac{\pi}{2},\\
+            1,&x=0.
+        \end{cases}$
+    \end{enumerate}
+
+    \item 设 $f(x)=\begin{cases}
+        \sin x,&x>0,\\
+        a+x^2,&x<0,
+    \end{cases}$ 问 $a$ 为何值时，$\displaystyle\lim_{x\to0}f(x)$ 存在？极限值为多少？
+
+    \item 设数列 $\{x_n\}$ 的一般项 $x_n=\dfrac{1}{n}\cos\dfrac{n\pi}{2}$. 求 $\displaystyle\lim_{n\to\infty}x_n$. 
+    存在 $N$，使当 $n>N$ 时，$x_n$ 与其极限之差的绝对值小于正数 $\varepsilon$，求出 $N$. 当 $\varepsilon=0.001$ 时，再求出数 $N$.
+
+    \item 试求出下列各极限：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\lim_{n\to\infty}\dfrac{3n^2-2}{8n^2+n}$;
+        \item $\displaystyle\lim_{n\to\infty}(\sqrt{n+1}-\sqrt{n})$;
+        \item $\displaystyle\lim_{x\to0}\dfrac{x^2-2}{4x^2+x+2}$;
+        \item $\displaystyle\lim_{x\to2}\dfrac{x^2-2}{4x^2+x+3}$;
+        \item $\displaystyle\lim_{x\to\infty}\dfrac{x^2-2}{4x^2+x+3}$;
+        \item $\displaystyle\lim_{x\to+\infty}\dfrac{\sqrt{x+1}-\sqrt{x-1}}{x}$;
+        \item $\displaystyle\lim_{n\to\infty}\dfrac{1+\dfrac{1}{2}+\dfrac{1}{4}+\cdots+\dfrac{1}{2^n}}{1+\dfrac{1}{3}+\dfrac{1}{9}+\cdots+\dfrac{1}{3^n}}$;
+        \item $\displaystyle\lim_{x\to1}\dfrac{x-1}{\sqrt{x}-1}$
+        \item $\displaystyle\lim_{x\to\infty}\left(2-\dfrac{1}{x^2}\right)\left(5+\dfrac{1}{x}\right)$;
+        \item $\displaystyle\lim_{x\to1}\left(\dfrac{1}{1-x}-\dfrac{3}{1-x^3}\right)$.
+    \end{enumerate}
+
+    \item 设 $f(x)=\begin{cases}
+        e^{\frac{1}{x}}+1,&x<0,\\
+        1,&x=0,\\
+        1+x\sin \dfrac{1}{x},&x>0,
+    \end{cases}$
+    求 $\displaystyle\lim_{x\to0}f(x)$.
+
+    \item 设函数 $f(x)=a^x(a>0,\;a\not1)$，则 $\displaystyle\lim_{x\to\infty}\dfrac{1}{n^2}\ln[f(1)f(2)\cdots f(n)]=$？
+    
+    \item 已知 $\displaystyle\lim_{n\to\infty}\left(\dfrac{x^2}{x+1}-ax-b\right)=0$，求常数 $a,\;b$.
+    
+    \item  求 $\displaystyle\lim_{x\to0}\dfrac{\cos x+\cos^2x+\cdots+\cos^n x-n}{\cos x-1}$.
+    
+    \item 根据定义证明：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 当 $x \to 3$ 时 $y=\dfrac{x^2-9}{x+3}$ 为无穷小;
+        \item 当 $x \to 0$ 时 $y=x\sin\dfrac{1}{x}$ 为无穷小.
+    \end{enumerate}
+    
+    \item 函数 $y=x\cos x$ 在 $(-\infty, +\infty)$ 内是否有界？当 $x\to\infty$ 时这个函数是否为无穷大？为什么？
+    
+    \item 下列陈述中哪些是对的，哪些是错的？如果是对的，说明理由；如果是错的，试给出一个反例.
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 如果 $\displaystyle\lim_{x\to x_0}f(x)$ 存在，但 $\displaystyle\lim_{x\to x_0}g(x)$ 不存在，那么 $\displaystyle\lim_{x\to x_0}[f(x)+g(x)]$ 不存在;
+        \item 如果 $\displaystyle\lim_{x\to x_0}f(x)$ 和 $\displaystyle\lim_{x\to x_0}g(x)$ 都不存在，那么 $\displaystyle\lim_{x\to x_0}[f(x)+g(x)]$ 不存在;
+        \item 如果 $\displaystyle\lim_{x\to x_0}f(x)$ 存在，但 $\displaystyle\lim_{x\to x_0}g(x)$ 不存在，那么 $\displaystyle\lim_{x\to x_0}[f(x) \cdot g(x)]$ 不存在.
+    \end{enumerate}
+
+
+
+\end{enumerate}
 
 \section{极限存在准则及两个重要极限}
 
