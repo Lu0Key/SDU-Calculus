@@ -1,0 +1,115 @@
+% !TeX program = XeLaTeX
+% !TeX root = main.tex
+\chapter{函数、极限和连续}\label{cha:11}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+% \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+% \end{enumerate}
+
+\section{函数}
+
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 求下列函数的定义域：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $y=\sin\sqrt{x-1}$;
+        \item $y=\lg(x^2-4)$;
+        \item $y=\arccos\dfrac{x-3}{2}$;
+        \item $y=\dfrac{1}{\sin x-\cos x}$;
+        \item $y=\sqrt{1-2x}+\sqrt{e-e\left(\dfrac{3x-1}{2}\right)^2}$;
+        \item $y=\dfrac{1}{1+\dfrac{1}{1+\dfrac{1}{x}}}$.
+    \end{enumerate}
+
+    \item 判断下列各题中两个函数是否相同，为什么？
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $y=\dfrac{x^2}{|x|}$ 和 $y=x$;
+        \item $y=|x|$ 和 $y=\sqrt{x^2}$;
+        \item $y=\log_ax^2$ 和 $y=2\log_ax(a>0,\;a\not=1)$;
+        \item $y=\dfrac{x^2-4}{x+2}$ 和 $y=x-2$.
+    \end{enumerate}
+
+    \item 下列函数中哪些是偶函数，哪些是奇函数，哪些是非奇非偶函数？
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $y=x^2\sin x$;
+        \item $y=x^2+\sin x$;
+        \item $y=x(x-1)(x+1)$;
+        \item $y=\dfrac{a^x+a^{-x}}{2}$;
+        \item $y=\ln\dfrac{x+1}{x-1}$;
+        \item $y=|x+1|$.
+    \end{enumerate}
+
+    \item 设
+    \[
+        \varphi(x)=\begin{cases}
+            |\sin x|,&|x|<\dfrac{\pi}{3},\\
+            0,&|x|\geqslant\dfrac{\pi}{3},
+        \end{cases}
+    \]
+    求 $\varphi\left(\dfrac{\pi}{6}\right),\;\varphi\left(\dfrac{\pi}{4}\right),\;\varphi\left(-\dfrac{\pi}{4}\right),\;\varphi\left(-2\right)$，
+    并作出函数 $y=\varphi(x)$ 的图形.
+
+    \item 指出下列函数在指定区间内的单调性：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $y=|x+1|,\quad x\in[-5,\;-1]$;
+        \item $y=a^x(a>0,\;a\not=1),\quad x\in(-\infty,+\infty)$.
+    \end{enumerate}
+
+    \item 指出下列函数中哪些是周期函数，并指出其周期：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $y=\cos 4x$;
+        \item $y=x\cos x$;
+        \item $y=1+\sin \pi x$;
+        \item $y=\sin^2x$.
+    \end{enumerate}
+
+    \item 求下列函数的反函数：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $y=2\sin 3x\quad\left(0<x<\dfrac{\pi}{6}\right)$;
+        \item $y=\sqrt[3]{x+1}$;
+        \item $y=\dfrac{ax+b}{cx+d}\;\;(ad-bc\not=0)$;
+        \item $y=\dfrac{1+\sqrt{1-x}}{1-\sqrt{1-x}}$.
+    \end{enumerate}
+
+    \item 函数 $y=\sin\dfrac{\pi x}{2(1+x^2)}$ 的值域是？
+    
+    \item 求初等函数 $f(x)$ 的表达式：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $f\left(x+\dfrac{1}{x}\right)=\dfrac{x^2}{x^4+1}$;
+        \item $f\left(\dfrac{x+1}{x-1}\right)=3f(x)-2x$.
+    \end{enumerate}
+
+    \item 设 $f(x)=\begin{cases}
+        1,&|x|\leqslant 1,\\
+        0,&|x|>1,
+    \end{cases}$ 则 $f\{f[f(x)]\}$ 等于？
+
+    \item 设 $f(x)=x^2,\;g(x)=2^x$，求 $f[f(x)],\;f[g(x)],\;g[f(x)],\;g[g(x)]$.
+    
+    \item 将下列各点的极坐标化为直角坐标：\\
+    $A\left(-3,\;\dfrac{\pi}{2}\right),\quad B(2,\;-\pi),\quad C(-3,\;3),\quad D(-5,\;0)$.
+
+    \item 将下列 个点的直角坐标转化为极坐标：\\
+    $A(-3,\;-4),\quad B(3,\;4),\quad C(-2,\;\pi),\quad D(\pi,\;3)$.
+
+    \item 化下列曲线的极坐标方程为直角坐标方程：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\theta=\dfrac{\pi}{4}$;
+        \item $r=2a\cos\theta$;
+        \item $r=\dfrac{1}{12\cos \theta}$;
+        \item $r=\dfrac{1}{2\sin\theta-3\cos\theta}$.
+    \end{enumerate}    
+
+    \item 设我国少年儿童的平均身高 $y(cm)$ 与年龄 $x$ 的函数表达式为 $y=ax+b$，已知 $1$ 岁儿童平均身高为 $85\;cm$，$10$ 岁儿童平均身高为 $130cm$，求 $a,\;b$.
+
+
+\end{enumerate}
+
+
+\section{极限}
+
+
+\section{极限存在准则及两个重要极限}
+
+
+\section{连续}
