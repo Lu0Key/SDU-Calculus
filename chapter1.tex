@@ -100,7 +100,8 @@
         \item $r=\dfrac{1}{2\sin\theta-3\cos\theta}$.
     \end{enumerate}    
 
-    \item 设我国少年儿童的平均身高 $y(cm)$ 与年龄 $x$ 的函数表达式为 $y=ax+b$，已知 $1$ 岁儿童平均身高为 $85\;cm$，$10$ 岁儿童平均身高为 $130cm$，求 $a,\;b$.
+    \item 设我国少年儿童的平均身高 $y(cm)$ 与年龄 $x$ 的函数表达式为 $y=ax+b$，
+    已知 $1$ 岁儿童平均身高为 $85\;cm$，$10$ 岁儿童平均身高为 $130cm$，求 $a,\;b$.
 
 
 \end{enumerate}
@@ -240,10 +241,83 @@
 
     \item 若 $\displaystyle\lim_{x\to0}\dfrac{\sin 6x+xf(x)}{x^3}=0$，求 $\displaystyle\lim_{x\to 0}f(x)$.
 
-
-
-
 \end{enumerate}
 
 
 \section{连续}
+
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 研究下列函数的连续性，并画出函数的图形：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $f(x) = \begin{cases}
+            x,&|x|\leqslant 1,\\
+            1,&|x|>1;
+        \end{cases}$
+        \item $f(x)=\begin{cases}
+            x^2,&0\leqslant x\leqslant 1,\\
+            2-x,&1<x\leqslant2.
+        \end{cases}$
+    \end{enumerate}
+
+    \item 指出下列函数在指定点处间断点的类型，如果是可去间断点，则补充或改变函数的定义使之连续：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $y=\dfrac{x^2-1}{x^2-3x+2},\;x=1,\;x=2$;
+        \item $y=\dfrac{x}{\tan x},\;x=k\pi,\;x=k\pi+\dfrac{\pi}{2},\;(k=0,\pm1,\pm2,\cdots)$;
+        \item $y=\cos^2\dfrac{1}{x},\;x=0$;
+        \item $y=\begin{cases}
+            x-1,&x\leqslant 1,\\
+            3-x,&x> 1,
+        \end{cases}\;x=1$;
+        \item $y=\begin{cases}
+            e^{\frac{1}{x-1}},&x>0,\\
+            \ln(1+x),&-1<x\leqslant 0,
+        \end{cases}\;x=0,\;x=1$;
+        \item $y=\displaystyle\lim_{n\to\infty}\dfrac{e^{nx}-1}{e^{nx}+1},\;x=0$.
+    \end{enumerate}
+
+    \item 讨论函数 $f(x)=\displaystyle\lim_{n\to\infty}\dfrac{1-x^{2n}}{1+x^{2n}}x$ 的连续性，若有间断点，判别其类型. 
+
+    \item 利用函数的连续性求极限：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\lim_{\alpha\to\frac{\pi}{4}}(\sin 2\alpha)^3$;
+        \item $\displaystyle\lim_{x\to\frac{\pi}{6}}\ln(2\cos 2x)$;
+        \item $\displaystyle\lim_{x\to1}\dfrac{\sqrt{5x-4}-\sqrt{x}}{x-1}$;
+        \item $\displaystyle\lim_{x\to\alpha}\dfrac{\sin x-\sin \alpha}{x-\alpha}$;
+        \item $\displaystyle\lim_{x\to+\infty}(\sqrt{x^2+x}-\sqrt{x^2-x})$;
+        \item $\displaystyle\lim_{x\to0}(1+3\tan^2x)^{\cot^2x}$;
+        \item $\displaystyle\lim_{x\to0}\ln\dfrac{\sin x}{x}$;
+        \item $\displaystyle\lim_{x\to\infty}\left(\dfrac{x^2+1}{x^2-1}\right)^{x^2}$.
+    \end{enumerate}
+
+    \item 设 $f(x)$ 在 $x=2$ 连续，且 $\displaystyle\lim_{x\to2}\dfrac{f(x)-3}{x-2}$ 存在，求 $f(2)$.
+    
+    \item 设 $f(x)=\begin{cases}
+        \dfrac{\ln(1+2x)}{\sqrt{1+x}-\sqrt{1-x}},&-1\leqslant x<0,\\
+        a,&x=0,\\
+        x^2+b,&0<x\leqslant1,
+    \end{cases}$ 
+    求 $a,\;b$ 使 $f(x)$ 在 $x=0$ 处连续.
+
+    \item 下列陈述中哪些是对的，哪些是错的？如果是对的，说明理由；如果是错的，试给出一个反例.
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 如果函数 $f(x)$ 在 $x=a$ 处连续，那么 $|f(x)|$ 也在 $x=a$ 处连续；
+        \item 如果函数 $|f(x)|$ 在 $x=a$ 处连续，那么 $f(x)$ 也在 $x=a$ 处连续.
+    \end{enumerate}
+
+    \item 设 $f(x)$ 在 $\mathbb{R}$ 上连续，且 $f(x)\not=0$，$\varphi(x)$ 在 $\mathbb{R}$ 上有定义，且有间断点，
+    则下列陈述中哪些是对的，哪些是错的？如果是对的，说明理由，如果是错的，试给出一个反例.
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\varphi[f(x)]$ 必有间断点；
+        \item $[\varphi(x)]^2$ 必有间断点；
+        \item $f[\varphi(x)]$ 未必有间断点；
+        \item $\dfrac{\varphi(x)}{f(x)}$ 必有间断点.
+    \end{enumerate}
+
+    \item 证明方程 $\sin x+x+1=0$ 在开区间 $\left(-\dfrac{\pi}{2},\;\dfrac{\pi}{2}\right)$ 内至少有一个根.
+    
+    \item 设函数 $f(x)$ 在 $(a,\;b]$ 上连续，且 $x\to a+0$ 时函数 $f(x)$ 的极限存在，则函数 $f(x)$ 在 $(a,\;b]$ 上有界.
+    
+    \item 设 $f(x)$ 在 $[a,\;b]$ 上连续，且 $a<c<d<b$，证明：在 $(a,\;b)$ 内至少存在一点 $\xi$ ，
+    使得 $pf(c)+qf(d)=(p+q)f(\xi)$，其中 $p,\;q$ 为任意正常数.
+
+\end{enumerate}
