@@ -1,0 +1,74 @@
+% !TeX program = XeLaTeX
+% !TeX root = main.tex
+\chapter{导数与微分}\label{cha:2}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+% \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+% \end{enumerate}
+
+\section{导数的概念}
+
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 将一个物体垂直上抛，设经过时间 $t$ 秒后，物体上升的高度为 $s=10t-\dfrac{1}{2}gt^2$. 
+    求下列各值：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 物体在 $1$ 秒到 $(1+\Delta t)$ 秒这段时间内的平均速度;
+        \item 物体在 $1$ 秒时的瞬时速度;
+        \item 物体在 $t_0$ 秒到 $(t_0+\Delta t)$ 秒这段时间内的平均速度;
+        \item 物体在 $t_0$ 秒的瞬时速度.
+    \end{enumerate}
+
+    \item 利用导数定义求下列函数在 $x=0$ 处的导数 $f'(0)$:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $f(x)=x^2+x+1$;
+        \item $f(x)=\cos(x+3)$;
+        \item $f(x)=x(x+1)(x+2)\cdots(x+n)$;
+        \item $f(x)=\begin{cases}
+            \dfrac{x}{1+e^{\frac{1}{x}}},&x<0,\\
+            0,&x=0,\\
+            \dfrac{2x}{1+e^x},&x>0.
+        \end{cases}$
+    \end{enumerate}
+
+    \item 设 $f(x)$ 在点 $x_0$ 处可导，按照导数定义，指出 $A$ 表示什么？
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\lim_{\Delta x\to0}\dfrac{f(x_0-\Delta x)-f(x_0)}{\Delta x}=A$;
+        \item $\displaystyle\lim_{h\to0}\dfrac{f(x_0)-f(x_0-h)}{h}=A$;
+        \item $\displaystyle\lim_{h\to0}\dfrac{f(x_0+h)-f(x_0)}{h}=A$;
+        \item $\displaystyle\lim_{h\to0}\dfrac{f(x_0+3h)-f(x_0)}{h}=A$;
+        \item $\displaystyle\lim_{h\to0}\dfrac{f(x_0+h^2)-f(x_0)}{h^2}=A$;
+        \item $\displaystyle\lim_{x\to0}\dfrac{f(x)}{x}=A$，设 $f(0)=0$，且 $f'(0)$ 存在.
+    \end{enumerate}
+
+    \item 讨论下列函数在指定点的连续性与可导性：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $f(x)=\begin{cases}
+            \sin x,&x\geqslant0,\\
+            x,&x<0,
+        \end{cases}$ 在 $x=0$;
+        \item $f(x)=|x|x$，在 $x=0$.
+    \end{enumerate}
+
+    \item 设 $f(x)$ 为可导函数，且满足条件 $\displaystyle\lim_{x\to0}\dfrac{f(1)-f(1-x)}{2x}=-1$，
+    求曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线斜率.
+
+    \item 已知 $f'(x_0)=-1$，求 $\displaystyle\lim_{x\to0}\dfrac{x}{f(x_0-2x)-f(x_0-x)}$.
+    
+    \item 已知 $f(x)$ 满足条件 $f(1+x)=af(x)$，且 $f'(0)=b$（常数 $a,\;b\not=0$），求 $f'(1)$.
+    
+    \item 某城镇每户居民用水费用(元)的模型由下式确定：
+    \[
+        f(x)=\begin{cases}
+            1.75x,&0\leqslant x\leqslant 4,\\
+            7+3.2(x-4),&x>4,
+        \end{cases}
+    \]
+    试问：\begin{minipage}[t]{10cm}
+            \begin{enumerate}[(1)]
+            \item 函数 $f(x)$ 在 $x=4$ 处是否连续;
+            \item 函数 $f(x)$ 在 $x=4$ 处是否可导.
+            \end{enumerate}
+        \end{minipage}
+\end{enumerate}
