@@ -1,0 +1,103 @@
+% !TeX program = XeLaTeX
+% !TeX root = main.tex
+\chapter{中值定理和导数的应用}\label{cha:3}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+% \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+% \end{enumerate}
+
+\section{微分中值定理}
+
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 下列函数在所给区间上是否满足罗尔定理的条件？若满足，求出定理结论中的内点 $\xi$:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $f(x)=x^2-5x+6,\quad[2,3]$;
+        \item $f(x)=\sin x,\quad[0,\pi]$;
+        \item $f(x)=\dfrac{1}{1+x^2},\quad[-2,2]$;
+        \item $f(x)=1-\sqrt[3]{x^2},\quad[-1,1]$.
+    \end{enumerate}
+
+    \item 下列函数在所给区间上是否满足拉格朗日中值定理的条件？若满足，求出定理结论中的内点 $\xi$:
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $f(x)=4x^3-5x^2+x-2,\quad[0,1]$;
+        \item $f(x)=e^x,\quad[0,\ln2]$;
+        \item $f(x)=\ln x,\quad[1,2]$.
+    \end{enumerate}
+
+    \item 证明恒等式
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\arcsin x+\arccos x=\dfrac{\pi}{2},\;\;-1\leqslant x\leqslant 1$;
+        \item $\arctan x+\arctan\dfrac{1}{x}=\dfrac{\pi}{2},\;\;x>0$.
+    \end{enumerate}
+
+    \item 应用拉格朗日中值公式证明不等式：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $|\sin x_2-\sin x_1|\leqslant |x_2-x_1|$;
+        \item $|\arctan x_2-\arcsin x_1|\leqslant |x_2-x_1|$;
+        \item $e^x>e\cdot x,\;\;x>1$;
+        \item $\dfrac{a-b}{a}<\ln\dfrac{a}{b}<\dfrac{a-b}{b}$.
+    \end{enumerate}
+    
+    \item 对函数 $f(x)=\sin x$ 和 $g(x)=x+\cos x$ 在区间 $\left[0,\;\dfrac{\pi}{2}\right]$ 上验证柯西公式
+    \[
+        \dfrac{f(b)-f(a)}{g(b)-g(a)}=\dfrac{f'(\xi)}{g'(\xi)},\quad a<\xi<b.
+    \]
+
+    \item 若方程 $a_0x^n+a_1x^{n-1}+\cdots+a_{n-1}x=0$ 有一个正根 $x_0$，
+    证明方程 $a_0nx^{n-1}+a_1(n-1)x^{n-2}+\cdots+a_{n-1}=0$ 必有一个小于 $x_0$ 的正根.
+
+    \item 若函数 $f(x)$ 在 $(a,b)$ 内具有二阶导数且 $f(x_1)=f(x_2)=f(x_3)$，
+    其中 $a<x_1<x_2<x_3<b$，证明：在 $(x_1,x_3)$ 内至少有一点 $\xi$，使 $f''(\xi)=0$.
+
+    \item 设函数 $f(x)$ 在 $[0,3]$ 上连续，在 $(0,3)$ 内可导，且 $f(0)+f(1)+f(2)=3,\;f(3)=1$. 
+    试证：必存在 $\xi\in(0,3)$，使得 $f'(\xi)=0$.
+
+    \item 证明：若函数 $f(x)$ 在 $(-\infty,+\infty)$ 内满足关系式 $f'(x)=f(x)$，
+    且 $f(0)=1$，则 $f(x)=e^x$.
+
+    \item 设函数 $y=f(x)$在$x=0$的某个领域内具有$n$ 阶导数,且 $f(0)=f'(0)=\cdots=f^{(n-1)}(0)=0$，
+    试用柯西中值定理证明
+    \[
+        \dfrac{f(x)}{x^n}=\dfrac{f^{(n)}(\theta x)}{n!},\;\;0<\theta<1.
+    \]
+
+    \item 设函数 $f(x),\;g(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内具有二阶导数且存在相等的最大值，$f(a)=g(a),\;f(b)=g(b)$. 
+    证明：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 存在 $\eta\in(a,b)$，使得 $f(\eta)=g(\eta)$;
+        \item 存在 $\xi\in(a,b)$，使得 $f''(\xi)=g''(\xi)$.
+    \end{enumerate}
+    
+    \item 设 $x_1x_2>0$，证明：$x_1e^{x_2}-x_2e^{x_1}=(1-\xi)e^{\xi}(x_1-x_2)$，
+    其中 $\xi$ 在 $x_1$ 与 $x_2$ 之间.
+
+    \item 设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $f(a)=f(b)=1$，
+    试证：存在 $\xi,\;\eta\in(a,b)$，使 $e^{\eta-\xi}[f(\eta)+f'(\eta)]=1$.
+\end{enumerate}
+
+\section{洛必达法则}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+\section{泰勒中值定理}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+\section{函数的单调性、极值和最大最小值}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+\section{曲线的凹凸性和函数作图}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
+
+\section{弧微分$\quad$曲率}
+
+% \begin{enumerate}\setlength{\itemsep}{7pt}
+% \end{enumerate}
