@@ -79,8 +79,79 @@
 
 \section{洛必达法则}
 
-% \begin{enumerate}\setlength{\itemsep}{7pt}
-% \end{enumerate}
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 求下列极限：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\lim_{x\to0}\dfrac{x-\sin x}{x^3}$;
+        \item $\displaystyle\lim_{x\to0}\dfrac{e^{x}-e^{-x}}{x}$;
+        \item $\displaystyle\lim_{x\to0}\dfrac{e^x-1}{x^2-x}$;
+        \item $\displaystyle\lim_{x\to\frac{\pi}{2}}\dfrac{\ln \sin x}{(\pi-2x)^2}$;
+        \item $\displaystyle\lim_{x\to\pi}\dfrac{\sin 3x}{\tan 5x}$;
+        \item $\displaystyle\lim_{x\to a}\dfrac{x^m-a^m}{x^n-a^n}$;
+        \item $\displaystyle\lim_{x\to\frac{\pi}{2}^{-}}\dfrac{\ln\cot x}{\tan x}$;
+        \item $\displaystyle\lim_{x\to+\infty}\dfrac{\ln\left(1+\dfrac{1}{x}\right)}{\text{arccot}\; x}$.
+    \end{enumerate}
+
+    \item 求下列极限：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\lim_{x\to0^+}xe^{\frac{1}{x}}$;
+        \item $\displaystyle\lim_{x\to0^+}x^2\ln x$;
+        \item $\displaystyle\lim_{x\to1}\left(\dfrac{2}{x^2-1}-\dfrac{1}{x-1}\right)$;
+        \item $\displaystyle\lim_{x\to\frac{\pi}{2}}(\sec x-\tan x)$;
+        \item $\displaystyle\lim_{x\to1}\left(\dfrac{x}{x-1}-\dfrac{1}{\ln x}\right)$;
+        \item $\displaystyle\lim_{x\to1}x^{\frac{1}{1-x}}$;
+        \item $\displaystyle\lim_{x\to0}\left(\dfrac{2}{\pi}\arccos x\right)^{\frac{1}{x}}$;
+        \item $\displaystyle\lim_{x\to+\infty}(1+x)^{\frac{1}{\sqrt{x}}}$;
+        \item $\displaystyle\lim_{x\to0}(\sin x)^x$;
+        \item $\displaystyle\lim_{x\to0}\left(\dfrac{3-e^x}{2+x}\right)^{\dfrac{1}{\sin x}}$.
+    \end{enumerate}
+
+    \item 求下列极限：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\lim_{x\to0}\dfrac{1}{x}\left(\dfrac{1}{\sin x}-\dfrac{1}{\tan x}\right)$;
+        \item $\displaystyle\lim_{x\to0}\left(\dfrac{1}{x}+\dfrac{1}{x^2}\ln(1-x)\right)$;
+        \item $\displaystyle\lim_{x\to0}\dfrac{\ln(1+x^2)}{\sec x-\cos x}$;
+        \item $\displaystyle\lim_{x\to+\infty}\left(\dfrac{\pi}{2}-\arctan x\right)^{\frac{1}{x}}$;
+        \item $\displaystyle\lim_{x\to+\infty}\dfrac{\ln(x\ln x)}{x^{\alpha}},\;\alpha>0$;
+        \item $\displaystyle\lim_{n\to\infty}n^3(a^{\frac{1}{n}}-a^{\sin\frac{1}{n}}),\;a>0$.
+    \end{enumerate}
+
+    \item 验证极限 $\displaystyle\lim_{x\to+\infty}\dfrac{e^x-e^{-x}}{e^x+e^{-x}}$ 
+    及  $\displaystyle\lim_{x\to0}\dfrac{x^2\sin\dfrac{1}{x}}{\sin x}$ 存在，但不能用洛必达法则求出.
+
+    \item 讨论函数
+    \[
+        f(x)=\begin{cases}
+            \left[\dfrac{(1+x)^{\frac{1}{x}}}{e}\right]^{\frac{1}{x}},&x>0,\\
+            e^{-\frac{1}{2}},&x\leqslant0
+        \end{cases}
+    \]
+    在 $x=0$ 的连续性.
+
+    \item 试确定常数 $A,\;B,\;C$ 的值，使得 $e^x(1+Bx+Cx^2)=1+Ax+o(x^3)$，
+    其中 $o(x^3)$ 是当 $x\to0$ 时比 $x^3$ 高阶的无穷小.
+
+    \item 设 $f''(x)$ 存在，
+    求证 $\displaystyle\lim_{h\to0}\dfrac{f(x+2h-2f(x+h)+f(x))}{h^2}=f''(x)$.
+
+    \item 设函数 $f(x)$ 在 $x=0$ 的某领域内具有一阶连续导数，且 $f(0)\not=0,\;f'(0)\not=0$，
+    若 $af(h)+bf(2h)-f(0)$ 在 $h\to0$ 时是比 $h$ 高阶的无穷小，试确定 $a,\;b$ 的值.
+
+    \item 设
+    \[
+        f(x)=\begin{cases}
+            \dfrac{g(x)-e^{-x}}{x},&x\not=0,\\
+            0,&x=0,
+        \end{cases}
+    \]
+    其中 $g(x)$ 有二阶连续导数，且 $g(0)=1,\;g'(0)=-1$,
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 求 $f'(x)$;
+        \item 讨论 $f'(x)$ 在 $(-\infty,+\infty)$ 上的连续性.
+    \end{enumerate}
+
+
+\end{enumerate}
 
 \section{泰勒中值定理}
 
