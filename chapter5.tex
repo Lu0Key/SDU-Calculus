@@ -34,8 +34,58 @@
 
 \section{几种常见的一阶微分方程}
 
-% \begin{enumerate}\setlength{\itemsep}{7pt}
-% \end{enumerate}
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 求下列微分方程的通解：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\dfrac{\text{d}y}{\text{d}x}=\dfrac{x}{y\sqrt{1-x^2}}$;
+        \item $(1+y^2)\text{d}x=x\text{d}y$;
+        \item $e^{2x}y\text{d}y-(y+1)\text{d}x=0$;
+        \item $e^{-y}(1+y')=1$;
+        \item $\sec^2x\tan y\text{d}x+\sec^2y\tan x\text{d}y=0$;
+        \item $e^y(1+x^2)\text{d}y-2x(1+e^{y})\text{d}x=0$.
+    \end{enumerate}
+
+    \item 求下列微分方程满足所给初值条件的特解：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $x^2e^{2y}\text{d}y=(x^3+1)\text{d}x,\;y(1)=0$;
+        \item $y'\sin x=y\ln y,\;y\left(\dfrac{\pi}{2}\right)=e$;
+        \item $\cos y\text{d}x+(1+e^{-x})\sin y\text{d}y=0,\;y(0)=\dfrac{\pi}{4}$;
+        \item $x\text{d}y+2y\text{d}x=0,\;y(2)=1$.
+    \end{enumerate}
+
+    \item 求下列微分方程的通解：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $x\dfrac{\text{d}y}{\text{d}x}=y(\ln y-\ln x)$;
+        \item $(xe^{\frac{y}{x}}+y)\text{d}x-x\text{d}y=0$;
+        \item $xy'=\sqrt{x^2-y^2}+y$;
+        \item $\left(x\sin\dfrac{y}{x}-y\cos\dfrac{y}{x}\right)\text{d}x+x\cos\dfrac{y}{x}\text{d}y=0$.
+    \end{enumerate}
+
+    \item 求下列初值问题的解：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $(x^3+y^3)\text{d}x-3xy^2\text{d}y=0,\;y(1)=0$;
+        \item $(x+2y)y'=y-2x,\;y(1)=1$;
+        \item $\begin{cases}
+            (y+\sqrt{x^2+y^2})\text{d}x-x\text{d}y=0\;\;(x>0),\\
+            y\big|_{x=1}=0.
+        \end{cases}$
+    \end{enumerate}
+
+    \item 解下列微分方程：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $y'-2xy=e^{x^2}\cos x$;
+        \item $y'-y\tan x=\sec x,\;y(0)=0$;
+        \item $(y^2+2xy-x)\text{d}y=y^2\text{d}x$;
+        \item[*(4)] $y'+\dfrac{y}{x}=2x^{-\frac{1}{2}}y^{\frac{1}{2}}$.
+    \end{enumerate}
+
+    \item[*6.] 设有微分方程 $y'-2y=\varphi(x)$，其中 $\varphi(x)=\begin{cases}
+        2,&x<1,\\
+        0,&x>1.
+    \end{cases}$ 试求在 $(-\infty,+\infty)$ 内的连续函数 $y=y(x)$，
+    使之在 $x\not=1$ 的区间内都满足方程，且 $y(0)=0$.
+
+\end{enumerate}
 
 \section{高阶微分方程}
 
