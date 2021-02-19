@@ -101,7 +101,154 @@
     \item[*13.] 设 $f(\sin^2x)=\dfrac{x}{\sin x}$，
     求 $\displaystyle\int\dfrac{\sqrt{x}}{\sqrt{1-x}}f(x)\text{d}x$. 
 
+\end{enumerate}
 
+\section{定积分}
 
+\begin{enumerate}\setlength{\itemsep}{7pt}
+    \item 证明定积分性质：
+    \[
+        \int_a^b\text{d}x=b-a.
+    \]
+
+    \item 估计积分值：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\int_1^4(x^2+1)\text{d}x$;
+        \item $\displaystyle\int_0^{\frac{\pi}{2}}\sqrt{1+\dfrac{1}{2}\sin^2x}\text{d}x$;
+        \item $\displaystyle\int_0^{2}\dfrac{e^{-x}}{x+2}\text{d}x$.
+    \end{enumerate}
+
+    \item 不计算积分比较积分值的大小：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\int_0^1x\text{d}x,\quad\int_0^1x^2\text{d}x$;
+        \item $\displaystyle\int_0^1e^x\text{d}x,\quad\int_0^1e^{x^2}\text{d}x$;
+        \item $\displaystyle\int_0^1x\text{d}x,\quad\int_0^1\ln(1+x)\text{d}x$.
+    \end{enumerate}
+
+    \item 求下列各函数的导数：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle f(x)=\int_0^xt\sqrt{1+t^2}\text{d}t$;
+        \item $\displaystyle f(x)=\int_x^2e^{-t^2}\text{d}t$;
+        \item $\displaystyle f(x)=\int_{\sin x}^{\cos x}\cos t^2\text{d}t$;
+        \item $\displaystyle \int_{x^2}^{x^3}\dfrac{\text{d}t}{\sqrt{1+t^4}}$.
+    \end{enumerate}
+
+    \item 求参数方程 
+    $\displaystyle x=\int_0^t\sin^2u\text{d}u,\;y=\int_0^{t^2}\cos\sqrt{u}\text{d}u$ 
+    所确定的函数 $y$ 对 $x$ 的一阶导数.
+
+    \item[*6.] 已知函数
+    \[
+        f(x)=\begin{cases}
+            2x,&0\leqslant x\leqslant 1,\\
+            2+x,&1<x\leqslant 2,
+        \end{cases}
+    \] 
+    求积分上限函数 $\displaystyle\varphi(x)=\int_0^xf(t)\text{d}t$ 在 $[0,2]$ 上的表达式.
+
+    \item[7.] 计算下列定积分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle \int_{\frac{1}{\sqrt{3}}}^{\sqrt{3}}\dfrac{\text{d}x}{1+x^2}$;
+        \item $\displaystyle \int_{-\frac{1}{2}}^{\frac{1}{2}}\dfrac{\text{d}x}{\sqrt{1-x^2}}$;
+        \item $\displaystyle \int_{0}^{\frac{\pi}{2}}\sqrt{1-\sin 2x}\text{d}x$;
+        \item $\displaystyle \int_1^4\left(\sqrt{x}+\dfrac{1}{\sqrt{x}}\right)\text{d}x$.
+    \end{enumerate}
+
+    \item[8.] 求下列极限：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle \lim_{x\to0}\dfrac{\displaystyle\int_0^x\sin t^2\text{d}t}{x^3}$;
+        \item $\displaystyle \lim_{x\to0^{+}}\dfrac{\displaystyle\int_0^{x^2}t^{\frac{3}{2}}\text{d}t}{\displaystyle\int_0^xt(t-\sin t)\text{d}t}$;
+        \item $\displaystyle \lim_{x\to0}\dfrac{\displaystyle\int_0^x\cos(t^2)\text{d}t}{x}$;
+        \item[*(4)] $\displaystyle \lim_{x\to0}\dfrac{\displaystyle\int_0^x\left[\int_0^{u^2}\arctan(1+t)\text{d}t\right]\text{d}u}{x(1-\cos x)}$.
+    \end{enumerate}
+
+    \item[9.] 设 $f(x)$ 为连续函数，
+    $\displaystyle \int_0^xf(x)\text{d}x=x^2(1+x)$，试求 $f(2)$.
+
+    \item[10.] 汽车以 $36 km/h$ 的速度行驶，到某处需要减速停车. 
+    设汽车以等加速度 $a=-5m/s^2$ 刹车，问从开始刹车到停车，汽车走了多少距离？
+    （提示：先求出开始刹车到停车所用时间.）
+
+    \item[*11.] 设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导且 $f'(x)\leqslant 0$，
+    若 $\displaystyle F(x)=\dfrac{1}{x-a}\int_a^xf(t)\text{d}t$，证明在 $(a,b)$ 内有 $F'(x)\leqslant 0$.
+
+    \item[*12.] 设函数 $f(x),\;g(x)$ 在 $[a,b]$ 上连续，且 $g(x)>0$. 证明存在一点 $\xi\in[a,b]$，使
+    \[
+        \int_a^bf(x)g(x)\text{d}x=f(\xi)\int_a^bg(x)\text{d}x.
+    \]
+    
+    \item[13.] 计算下列定积分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle \int_0^1\dfrac{x\text{d}x}{(x^2+1)^2}$;
+        \item $\displaystyle \int_{\frac{1}{\pi}}^{\frac{2}{\pi}}\dfrac{1}{x^2}\sin\dfrac{1}{x}\text{d}x$;
+        \item $\displaystyle \int_0^{\ln2}\sqrt{e^x-1}\text{d}x$;
+        \item $\displaystyle \int_0^1\dfrac{\sqrt{x}}{1+\sqrt{x}}\text{d}x$;
+        \item $\displaystyle \int_0^{\sqrt{2}}\sqrt{2-x^2}\text{d}x$;
+        \item $\displaystyle \int_1^{\sqrt{3}}\dfrac{\text{d}x}{x^2\sqrt{1+x^2}}$;
+        \item $\displaystyle \int_0^1\dfrac{\arcsin \sqrt{x}}{\sqrt{x(1-x)}}\text{d}x$;
+        \item $\displaystyle \int_1^{e^2}\dfrac{\text{d}x}{x\sqrt{1+\ln x}}$;
+        \item $\displaystyle \int_{-2}^0\dfrac{\text{d}x}{x^2+2x+2}$;
+        \item $\displaystyle \int_0^1te^{-\frac{t^2}{2}}\text{d}t$.
+    \end{enumerate}
+
+    \item[14.] 设 $f(x)$ 在区间 $[a,b]$ 上连续，且 $f(x)>0$，
+    \[
+        F(x)=\int_a^xf(t)\text{d}t+\int_b^x\dfrac{\text{d}t}{f(t)},\;\;x\in[a,b].
+    \] 
+    证明：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $F'(x)\geqslant 2$;
+        \item 方程 $F(x)=0$ 在区间 $(a,b)$ 内有且仅有一个根.
+    \end{enumerate}
+
+    \item[15.] 设 $f(x)$ 是以 $l$ 为周期的连续函数，证明 $\displaystyle\int_a^{a+l}f(x)\text{d}x$ 的值与 $a$ 无关.
+    
+    \item[16.] 求下列定积分：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle \int_0^1x^2e^x\text{d}x$;
+        \item $\displaystyle \int_1^2x\ln\sqrt{x}\text{d}x$;
+        \item $\displaystyle \int_0^1x\arctan x\text{d}x$;
+        \item $\displaystyle \int_0^{\pi}x\sin 2x\text{d}x$;
+        \item[*(5)] $\displaystyle \int_1^e\sin(\ln x)\text{d}x$;
+        \item[(6)] $\displaystyle \int_{\frac{1}{e}}^{e}|\ln x|\text{d}x$.
+    \end{enumerate}
+
+    \item[*17.] 设 $f(x)=\begin{cases}
+        \dfrac{1}{1+e^x},&x<0,\\
+        \dfrac{1}{1+x},&x\geqslant0,
+    \end{cases}$ 求 $\displaystyle\int_0^2f(x-1)\text{d}x$.
+
+    \item[**18.] 求下列极限：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\lim_{n\to\infty}\dfrac{1}{n}\left(\sqrt{1+\dfrac{1}{n}}+\sqrt{1+\dfrac{2}{n}}+\cdots+\sqrt{1+\dfrac{n}{n}}\right)$;
+        \item $\displaystyle\lim_{n\to\infty}\int_0^1\dfrac{x^n}{1+x}\text{d}x$.
+    \end{enumerate}
+
+    \item[*19.] 求下列各题：
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item $\displaystyle\dfrac{\text{d}}{\text{d}x}\int_0^x\sin(x-t)^2\text{d}t$;
+        \item 设 $f(x)$ 有一个原函数 $\dfrac{\sin x}{x}$，
+        求 $\displaystyle\int_{\frac{\pi}{2}}^{\pi}xf'(x)\text{d}x$ 的值.
+        \item $\displaystyle \int_0^1\sqrt{2x-x^2}\text{d}x$.
+    \end{enumerate}
+
+    \item[*20.] 已知 $f(x)$ 连续，$\displaystyle \int_0^xtf(x-t)\text{d}t=1-\cos x$，
+    求 $\displaystyle\int_0^{\frac{\pi}{2}}f(x)\text{d}x$ 的值.
+
+    \item[*21.] 设 $\displaystyle S(x)=\int_0^x|\cos t|\text{d}t$,
+    \begin{enumerate}[(1)]\setlength{\itemsep}{5pt}\setlength{\topsep}{15pt}
+        \item 当 $n$ 为正整数，且 $n\pi\leqslant x<(n+1)\pi$ 时，证明 $2n\leqslant S(x)< 2(n+1)$;
+        \item 求 $\displaystyle\lim_{x\to+\infty}\dfrac{S(x)}{x}$.
+    \end{enumerate}
+
+    \item[*22.] 设 $f(x)$ 在区间 $[0,1]$ 上连续，在 $(0,1)$ 内可导，且满足
+    \[
+        f(1)=3\int_0^{\frac{1}{3}}e^{1-x^2}f(x)\text{d}x.
+    \] 
+    证明存在 $\xi\in(0,1)$，使得 $f'(\xi)=2\xi f(\xi)$.
+
+    \item[**23.] 已知两曲线 $y=f(x)$ 与 $\displaystyle y=\int_0^{\arctan x}e^{-t^2}\text{d}t$ 
+    在点 $(0,0)$ 处的切线相同，写出此切线方程，
+    并求极限 $\displaystyle \lim_{n\to\infty} nf\left(\dfrac{2}{n}\right)$.
 
 \end{enumerate}
